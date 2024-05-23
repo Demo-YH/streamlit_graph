@@ -8,7 +8,8 @@ import pandas as pd                     #データの統計量を表示したり
 import sympy as sym                     #式をそのままグラフにしてくれる
 from sympy.plotting import plot         #式をそのままグラフにしてくれる
 import time
-import matplotlib.font_manager as fm    #font
+import japanize_matplotlib              #font
+
 
 # ページ情報、基本的なレイアウト
 st.set_page_config(
@@ -93,7 +94,7 @@ def s_graph():
         x1 = np.random.randn(100)*0.5+0.5
         y1 = np.random.randn(100)
 
-        plt.rcParams['font.family'] = "HGMaruGothicMPRO"
+        plt.rcParams['font.family'] = "MS Gothic"
         #x軸とy軸にラベル付け
         plt.grid()
         plt.legend()
