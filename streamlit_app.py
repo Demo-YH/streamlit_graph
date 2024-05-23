@@ -1,5 +1,5 @@
 import streamlit as st
-import matplotlib as mpl
+import matplotlib as mpl                #グラフ描画
 import matplotlib.pyplot as plt         #matplotlibパッケージ内のモジュール
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np                      #ベクトルや行列の計算を高速に処理するためのライブラリ
