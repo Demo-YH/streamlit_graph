@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st                  #web用
 import matplotlib as mpl                #グラフ描画
 import matplotlib.pyplot as plt         #matplotlibパッケージ内のモジュール
 from mpl_toolkits.mplot3d import Axes3D
