@@ -1,5 +1,5 @@
 import streamlit as st                  #web用パッケージ
-import matplotlib as mpl                #グラフ描画
+import matplotlib as mlp                #グラフ描画
 import matplotlib.pyplot as plt         #matplotlibパッケージ内のモジュール
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np                      #ベクトルや行列の計算を高速に処理するためのライブラリ
@@ -43,7 +43,7 @@ def w_graph():
 def sin_g():
 
     # 折れ線グラフ (初期状態)
-    x = np.arrange(0, np.pi*4, 0.1)
+    x = np.arange(0, np.pi*4, 0.1)
     line_chart = st.line_chart(x)
 
     for i in range(10):
@@ -55,7 +55,7 @@ def sin_g():
 
 #正接
 def tan_g():
-        with st.sidebar:       
+        with st.sidebar: 
             num = st.slider("スライダー", 1, 10, 1)
 
         with st.expander("押して！"):
@@ -68,7 +68,6 @@ def tan_g():
             fig, ax = plt.subplots()
             plt.plot(x, y)
             st.pyplot(fig)
-
 
 #数式をグラフ表示
 def f_g():
