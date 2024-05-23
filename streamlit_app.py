@@ -86,7 +86,6 @@ def f_g():
 
 #散布図
 def s_graph():
-        plt.rcParams['font.family'] = "MS Gothic"
         #標準正規分布に従った乱数を100個生成
         x = np.random.randn(100)*0.5
         y = np.random.randn(100)
@@ -96,13 +95,13 @@ def s_graph():
         #x軸とy軸にラベル付け
         plt.grid()
         plt.legend()
-        plt.xlabel("xの乱数")
-        plt.ylabel("yの乱数")
+        plt.xlabel("xの乱数",fontname ='MS Gothic')
+        plt.ylabel("yの乱数",fontname ='MS Gothic')
 
         #散布図を作成
         plt.scatter(x, y,s=100, c='blue',  marker='*', alpha=0.5,label="star")
         plt.scatter(x1, y1,s=100, c='orange',  marker='*', alpha=0.5,label="star2")
-        plt.title("標準正規分布に従った乱数を100個生成")
+        plt.title("標準正規分布に従った乱数を100個生成",fontname ='MS Gothic')
         plt.legend()
 
         #colorbarを表示 
