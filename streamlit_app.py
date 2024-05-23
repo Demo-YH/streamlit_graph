@@ -8,6 +8,7 @@ import pandas as pd                     #データの統計量を表示したり
 import sympy as sym                     #式をそのままグラフにしてくれる
 from sympy.plotting import plot         #式をそのままグラフにしてくれる
 import time
+from matplotlib import font_manager
 
 # ページ情報、基本的なレイアウト
 st.set_page_config(
@@ -92,16 +93,17 @@ def s_graph():
         x1 = np.random.randn(100)*0.5+0.5
         y1 = np.random.randn(100)
 
+        plt.rcParams['font.family'] = "Meiryo"
         #x軸とy軸にラベル付け
         plt.grid()
         plt.legend()
-        plt.xlabel("xの乱数",fontname ='MS Gothic')
-        plt.ylabel("yの乱数",fontname ='MS Gothic')
+        plt.xlabel("xの乱数")
+        plt.ylabel("yの乱数")
 
         #散布図を作成
         plt.scatter(x, y,s=100, c='blue',  marker='*', alpha=0.5,label="star")
         plt.scatter(x1, y1,s=100, c='orange',  marker='*', alpha=0.5,label="star2")
-        plt.title("標準正規分布に従った乱数を100個生成",fontname ='MS Gothic')
+        plt.title("標準正規分布に従った乱数を100個生成")
         plt.legend()
 
         #colorbarを表示 
