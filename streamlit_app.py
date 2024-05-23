@@ -46,7 +46,6 @@ def sin_g():
     x = np.arrange(0, np.pi*4, 0.1)
     line_chart = st.line_chart(x)
 
-
     for i in range(10):
         y = np.sin(x)
         # 折れ線グラフに 0.5 秒間隔で 10 回データを追加する
