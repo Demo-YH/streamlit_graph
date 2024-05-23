@@ -11,5 +11,5 @@
 #### ※正弦波グラフは原点がうまく設定できず検討中の為未完(開始位置が不適切)
 #### 4. pip list --format=freeze > requirements.txt　コマンドにてデプロイ時にパッケージinstallの為のパッケージ一覧ファイル作成  
 #### 5. [Streamlit Cloud](https://streamlit.io/cloud)でデプロイ  
-[動作はこちらから見れます。](https://testapp-32xhqlmjnhcygwqk4smv59.streamlit.app/)
+[動作はこちらから見れます。](https://appgraph-yzmjv8fmlkn3klcz4spony.streamlit.app)
 
