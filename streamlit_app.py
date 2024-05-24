@@ -88,6 +88,7 @@ def f_g():
 
 #散布図
 def s_graph():
+        japanize_matplotlib.japanize()
         #標準正規分布に従った乱数を100個生成
         x = np.random.randn(100)*0.5
         y = np.random.randn(100)
