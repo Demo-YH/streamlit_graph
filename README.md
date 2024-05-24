@@ -5,11 +5,13 @@
 
 ## 構築手順  
 #### 1. python3.11.4　インストール  
-#### 2. python -m venv 環境名　コマンドにてTerminalから環境作成  
-#### ※Anaconda環境だとgit連携ができなかったためvenvにて環境構築
-#### 3. pip install モジュール名　で必要なモジュールをインストールし、処理実装 
+#### 2. python -m venv 任意の環境名　コマンドにてTerminalから環境作成  
+#### ※Anaconda環境だとtreamlit Cloudでデプロイができなかったためpythonのvenvにて環境再構築。
+#### 3. pip install モジュール名　コマンドにて必要なモジュールをインストールし、処理実装 
 #### ※正弦波グラフは原点がうまく設定できず検討中の為未完(開始位置が不適切)
-#### 4. pip list --format=freeze > requirements.txt　コマンドにてデプロイ時にパッケージinstallの為のパッケージ一覧ファイル作成  
+#### ※フォント設定がメソッド内でうまく動作しなかったため【japanize_matplotlib】使用
+#### 4. pip list --format=freeze > requirements.txt　コマンドにて　　
+#### 　デプロイ時にパッケージinstallの為のパッケージ一覧ファイル作成  
 #### 5. [Streamlit Cloud](https://streamlit.io/cloud)でデプロイ  
 [動作はこちらから見れます。](https://appgraph-yzmjv8fmlkn3klcz4spony.streamlit.app)
 
