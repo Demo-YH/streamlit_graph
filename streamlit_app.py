@@ -58,7 +58,7 @@ def tan_g():
             num = st.slider("スライダー", 1, 10, 1)
 
         with st.expander("押して！"):
-            st.write("このようにして、ユーザーがクリックすると、追加の情報を表示できるようになります。")
+            st.write("スライダーでグラフ表示変化。")
 
             #グラフ描画
             x = np.linspace(0, 10, 100)
