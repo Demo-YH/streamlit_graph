@@ -5,7 +5,7 @@
 
 ## 構築手順  
 #### 1. python3.11.4　インストール  
-#### 2. python -m venv 環境名　コマンドにてTerminalから環境作成  
+#### 2. python -m venv 任意の環境名　コマンドにてTerminalから環境作成  
 #### ※Anaconda環境だとtreamlit Cloudでデプロイができなかったためpythonのvenvにて環境再構築。
 #### 3. pip install モジュール名　コマンドにて必要なモジュールをインストールし、処理実装 
 #### ※正弦波グラフは原点がうまく設定できず検討中の為未完(開始位置が不適切)
