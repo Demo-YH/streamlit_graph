@@ -9,7 +9,6 @@ import sympy as sym                     #式をそのままグラフにしてく
 from sympy.plotting import plot         #式をそのままグラフにしてくれる
 import time
 import japanize_matplotlib              #font
-import seaborn              #font
 
 # ページ情報、基本的なレイアウト
 st.set_page_config(
