@@ -15,3 +15,5 @@
 #### 5. [Streamlit Cloud](https://streamlit.io/cloud)でデプロイ  
 [動作確認はこちら](https://appgraph-yzmjv8fmlkn3klcz4spony.streamlit.app)
 
+## これは何ですか？
+過去にwxpythonで作成したグラフ描画をStreamlitに移行したものです。  
